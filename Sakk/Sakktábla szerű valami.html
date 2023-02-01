@@ -3,6 +3,7 @@
 	<html lang="hu">
 	<title>sakk</title>
 	<style>
+
 		body
 		{
 			background-color: pink;
@@ -16,12 +17,13 @@
 
 		td
 		{
-			width: 75px; 
+			width: 75px;
 			height: 75px;
 			background-color: white;
 			border: 1px solid black;
 			text-align: center;
 			text-transform: uppercase;
+			background-repeat: no-repeat;
 		}
 
 		table
@@ -31,12 +33,38 @@
 			margin:auto;
 		}
 
-		.feherBastya
+
+		.feherBastya,.feherFuto,.feherLo,.feherVezer,.feherKiraly,.feherGyalog,
+		.feketeBastya,.feketeFuto,.feketeLo,.feketeVezer,.feketeKiraly,.feketeGyalog
 		{
 			background-image: url(./chess.png);
-			background-size: 300px 323px;
-			background-position:32% 100%;
+			background-size: 300% 300%;
 		}
+
+
+
+
+
+
+
+		.feherBastya{background-position:30% 103%;}
+
+		.feherFuto{background-position: 70% 103%;}
+
+		.feherLo{background-position: -10% 103%;}
+
+		.feherVezer{background-position: 110% 53%;}
+
+		.feherKiraly{background-position: 70% 53%;}
+		
+		.feherGyalog{background-position: 110% 103%;}
+
+
+		.feketeBastya{background-position: 70% -5%;}
+		.feketeLo{background-position: 110% -5%;}
+		.feketeFuto{30% -5%}
+		.feketeVezer{70% 53%}
+		.feketeKiraly{}
 
 
 	</style>
@@ -44,7 +72,7 @@
 </head>
 
 <body>
-	<!--img src="chess.png">-->
+	<img src="chess.png">
 
 	<table>
 		<tr>
@@ -53,24 +81,24 @@
 		<tr>
 			<td>1</td>
 			<td class="fekete feherBastya"></td>
-			<td></td>
-			<td class="fekete"></td>
-			<td></td>
-			<td class="fekete"></td>
-			<td></td>
-			<td class="fekete"></td>
-			<td></td>
+			<td class="feherLo"></td>
+			<td class="fekete feherFuto"></td>
+			<td class="feherVezer"></td>
+			<td class="fekete feherKiraly"></td>
+			<td class="feherFuto"></td>
+			<td class="fekete feherLo"></td>
+			<td class="feherBastya"></td>
 		</tr>
 		<tr>
 			<td>2</td>
-			<td></td>
-			<td class="fekete"></td>
-			<td></td>
-			<td class="fekete"></td>
-			<td></td>
-			<td class="fekete"></td>
-			<td></td>
-			<td class="fekete"></td>
+			<td class="feherGyalog"></td>
+			<td class="fekete feherGyalog"></td>
+			<td class="feherGyalog"></td>
+			<td class="fekete feherGyalog"></td>
+			<td class="feherGyalog"></td>
+			<td class="fekete feherGyalog"></td>
+			<td class="feherGyalog"></td>
+			<td class="fekete feherGyalog"></td>
 		</tr>
 		<tr>
 			<td>3</td>
