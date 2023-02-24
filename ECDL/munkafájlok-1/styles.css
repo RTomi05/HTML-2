@@ -2,11 +2,13 @@
 
 body{
     color: #000000;
+    font-family: tahoma, sans-serif;
+    background-color: #fff2e8;
 }
 
 .kep{
     width: 130px;
-    border: 0;
+    border: 2px solid red;
     float: right;
 }
 
@@ -24,8 +26,8 @@ width: 130px;
     text-decoration: none;
 }
 #menu a:hover{
-    color: green;
-    text-decoration: none;
+    color: red;
+    text-decoration: underline;
 }
 
 /* t�bl�zat st�luselemek */
