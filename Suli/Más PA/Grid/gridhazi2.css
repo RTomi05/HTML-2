@@ -1,0 +1,50 @@
+body
+{
+    background-color: rgb(194, 239, 239);
+}
+
+.grid-container
+{
+	display: grid;
+}
+
+.grid-container div
+{
+	border: 1px solid blue;
+	height: 20px
+}
+
+.elem1
+{
+    grid-area: 1 / 1 / span 2 / span 2;
+}
+
+.elem2
+{
+    grid-area: 1 / 4 / span 1 / span 4;
+}
+
+.elem3
+{
+    grid-area: 1 / 9 / span 1 / span 3;
+}
+
+.elem5
+{
+    grid-area: 2 / 3 / span 1 / span 8;
+}
+
+.elem6
+{
+    grid-area: 3 / 3 / span 1 / span 2;
+}
+
+.elem7
+{
+    grid-area: 4 / 1 / span 1 / 1;
+}
+
+.elem8
+{
+    grid-area: 4 / 2 / span 1 / 1;
+}
