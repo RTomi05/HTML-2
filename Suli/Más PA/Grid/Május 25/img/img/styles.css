@@ -70,6 +70,7 @@ body
 .sidebar
 {
 	background-color: white;
+	
 }
 
 .sidebar .sideBox
@@ -77,6 +78,40 @@ body
 	background-color: #96a96f;
 	background-image: url(./img02.gif);
 	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding-bottom: 20px;
+	margin-block: 20px;
+	
 
 }
 
+.sidebar .sideBox h3
+{
+	background-color: #203926;
+	color: white;
+}
+
+.sideBox ul li
+{
+	padding-block: 5px;
+	color: #203926;
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+.sideBox ul
+{
+	padding-left:0px;
+	margin: 0px;
+}
+
+.sideBox a
+{
+	text-decoration: none;
+}
+
+.sideBox a:hover li
+{
+	color: #96a96f;
+	background-color: #203926;
+}
