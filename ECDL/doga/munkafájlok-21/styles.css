@@ -28,6 +28,12 @@ body{
     text-decoration: none;
     color: #606;
 }
+<<<<<<< HEAD
+=======
+#menu a:hover{
+    color:#c6c ; 
+}
+>>>>>>> 210aa0adf4f68b1a42041b723c6695e2058cec02
 
 #tartalom{
     width: 750px;
@@ -37,7 +43,12 @@ body{
     float: right;
 }
 .kep img{
+<<<<<<< HEAD
     width: 270px;
+=======
+    width: 300px;
+    margin: 10px;
+>>>>>>> 210aa0adf4f68b1a42041b723c6695e2058cec02
 }
 
 table{
@@ -54,6 +65,10 @@ td{
     padding: 10px 5px;
     vertical-align: top;
     min-width: 80px;
+<<<<<<< HEAD
+=======
+    border-bottom: 3px dotted #060;
+>>>>>>> 210aa0adf4f68b1a42041b723c6695e2058cec02
 }
 fieldset p{
     font-weight: bold;
@@ -61,3 +76,14 @@ fieldset p{
 input[type='text']{
     width: 300px;
 }
+<<<<<<< HEAD
+=======
+
+fieldset{
+    padding: 15px;
+}
+
+input[type='submit']{
+   background-color: #c6c;
+}
+>>>>>>> 210aa0adf4f68b1a42041b723c6695e2058cec02
